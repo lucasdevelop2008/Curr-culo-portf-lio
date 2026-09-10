@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Lucas Beghetto Dias — Desenvolvedor de Sistemas junior." />
+  <title>Lucas Beghetto Dias — Desenvolvedor de Sistemas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ir para o início"><span>LB</span><b>lucas.dev</b></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="header-cta" href="mailto:lucasdevelop2008@gmail.com">Vamos conversar <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero page-section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><i></i> disponível para oportunidades</p>
+        <h1>Desenvolvedor que transforma <em>ideias</em> em experiências digitais.</h1>
+        <p class="hero-text">Olá, eu sou Lucas. Desenvolvedor de Sistemas junior, formado pelo SESI/SENAI, com paixão por criar soluções funcionais, aprender sempre e evoluir através de projetos reais.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projetos">Explorar projetos <span>↓</span></a><a class="button button-ghost" href="Currículo.pdf" download>Baixar currículo <span>↗</span></a></div>
+        <div class="social-row"><span class="mono">PR / CAMPO LARGO, BR</span><a href="https://github.com/lucasdevelop2008" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/lucas-b-8301a23aa/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:lucasdevelop2008@gmail.com">E-mail ↗</a><a class="phone-link" href="tel:+5541988914696">(41) 98891-4696 ↗</a></div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="portrait-wrap"><img src="assets/profile.png" alt="Retrato de Lucas Beghetto Dias" /><div class="portrait-caption"><span>Lucas Beghetto Dias</span><small>systems developer · 2026</small></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-note"><span class="note-dot"></span><div><b>curiosity → code</b><small>sempre aprendendo</small></div></div>
+        <div class="hero-index">01 <span>/</span> 04</div>
+      </div>
+    </section>
+
+    <section id="sobre" class="intro-strip page-section reveal"><div class="section-label"><span>01</span><b>sobre mim</b></div><div class="intro-content"><p>Formado no Ensino Médio Técnico em <strong>Desenvolvimento de Sistemas</strong>, durante minha formação participei da preparação para a WorldSkills — uma experiência que fortaleceu minha lógica, disciplina e vontade de construir.</p><span class="line-arrow">↘</span></div></section>
+
+    <section id="habilidades" class="skills-section page-section">
+      <div class="section-heading reveal"><div><p class="eyebrow"><i></i> toolkit</p><h2>Ferramentas para<br><em>fazer acontecer.</em></h2></div><p class="heading-side">Uma base técnica em crescimento contínuo, sempre conectando fundamentos sólidos a novas possibilidades.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-number">01</span><div class="skill-icon">〈/〉</div><h3>Web & apps</h3><p>Construção de interfaces e aplicações com tecnologias modernas.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Flutter</span></div></article>
+        <article class="skill-card accent reveal reveal-delay"><span class="skill-number">02</span><div class="skill-icon">⌘</div><h3>Dados & lógica</h3><p>Organização de informações e raciocínio para resolver problemas.</p><div class="tags"><span>Laragon</span><span>Modelagem</span><span>SQL</span></div></article>
+        <article class="skill-card reveal reveal-delay-2"><span class="skill-number">03</span><div class="skill-icon">⎇</div><h3>Workflow</h3><p>Ferramentas que tornam o desenvolvimento mais claro e colaborativo.</p><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div></article>
+      </div>
+    </section>
+
+    <section class="journey page-section reveal"><div class="section-label"><span>02</span><b>trajetória</b></div><div class="timeline"><div class="timeline-item"><span class="year">2026</span><div><h3>WorldSkills — Desenvolvimento de aplicativos</h3><p>Competidor na etapa estadual, vivenciando desafios práticos de desenvolvimento sob pressão e colaboração.</p></div><span class="timeline-dot"></span></div><div class="timeline-item"><span class="year">2025</span><div><h3>Ensino Médio Técnico em Desenvolvimento de Sistemas</h3><p>SESI/SENAI · Campo Largo/PR</p></div><span class="timeline-dot"></span></div></div></section>
+
+    <section id="projetos" class="projects-section page-section"><div class="section-heading reveal"><div><p class="eyebrow"><i></i> selected work</p><h2>Projetos em<br><em>construção.</em></h2></div><button class="add-project" id="openModal">+ adicionar projeto</button></div><div class="project-toolbar"><div class="filters"><button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="app">Apps</button><button class="filter" data-filter="data">Dados</button></div><span class="project-hint">Seus projetos aparecem aqui</span></div><div class="projects-grid" id="projectsGrid"></div></section>
+
+    <section id="contato" class="contact-section page-section reveal"><div class="contact-orb"></div><p class="eyebrow"><i></i> próximo capítulo</p><h2>Tem uma ideia?<br><em>Vamos construir.</em></h2><p>Estou buscando minha primeira oportunidade no mercado para aplicar o que aprendi e continuar evoluindo tecnicamente.</p><div class="contact-actions"><a class="button button-primary" href="mailto:lucasdevelop2008@gmail.com">Entrar em contato <span>↗</span></a><a class="phone-card" href="tel:+5541988914696"><small>telefone</small><strong>(41) 98891-4696</strong></a><a class="phone-card email-card" href="mailto:lucasdevelop2008@gmail.com"><small>e-mail</small><strong>lucasdevelop2008@gmail.com</strong></a></div></section>
+  </main>
+
+  <footer class="site-footer"><span>© 2026 Lucas Beghetto Dias</span><span class="footer-mark">feito com curiosidade<span> + </span>código</span><a href="#top">voltar ao topo ↑</a></footer>
+
+  <div class="modal-backdrop" id="modal"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="Fechar">×</button><p class="eyebrow"><i></i> novo projeto</p><h2 id="modalTitle">Adicionar ao portfólio</h2><form id="projectForm"><label>Nome do projeto<input name="title" required placeholder="Ex.: Landing page pessoal"></label><label>Descrição<textarea name="description" required placeholder="O que você criou e qual problema resolve?"></textarea></label><div class="form-row"><label>Categoria<select name="category"><option value="web">Web</option><option value="app">App</option><option value="data">Dados</option></select></label><label>Link (opcional)<input name="link" type="url" placeholder="https://..."></label></div><div class="modal-actions"><button type="button" class="button button-ghost" id="cancelModal">Cancelar</button><button type="submit" class="button button-primary">Salvar projeto ↗</button></div></form></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
